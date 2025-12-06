@@ -11,9 +11,10 @@ The following technologies are incorporated in this project:
 ___
 
 Instructions For Opening/Viewing this Project:
-1. Unzip file 
-2. Drag and Drop folder into a your choice of code editor (to view code).
-3. Drag or double click `index.html` file to a new tab in your internet browser.
+1. Click Green "Code" button and choose option "clone with url" 
+2. Inside of your choice of terminal, clone into repo to install on your computer.
+3. Drag and Drop folder into a your choice of code editor (to view code).
+4. Drag or double click `index.html` file to a new tab in your internet browser.
 
 ## **How to use Front End as a typical user**
 
@@ -21,7 +22,7 @@ Upon landing on the Home Page you will see a 'Carousel' with arrows that rotates
 
 ## **User Experience**
 
-Upon completion of the Instructions for Opening/Viewing printed above, the user may feel free to enjoy my **Capstone Project**. If you click on Dynamic Dice these are the **Rules and Instructions for Dynamic Dice:**
+Upon completion of the Instructions for Opening/Viewing printed above, the user may feel free to enjoy my **Capstone Project**. If you click on Dynamic Dice these are the **Rules and Instructions for Dynamic Dice:** : most other games include a instructions button to help better explain games.
 
 On the first roll:
 A 7 or 11 is a winner. A 4, 5, 6, 8, 9, or 10 will be your point. A 2, 3, or 12 are only relevant on before you have a point and they are "Craps" (aka: you lose your bet).
