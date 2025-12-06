@@ -1,0 +1,131 @@
+/*// ========================================*/
+/*//           Global Styles*/
+/*// ========================================*/
+.pageContainer{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  /*background-image: url(./images/rotatingCellBackground.gif);*/
+  
+}
+
+body{
+  background-color: black;
+}
+
+.scoreContainer{
+  /*border: solid white 3px;*/
+  height: 6rem;
+  width: 6rem;
+  color: white;
+}
+
+.score{
+  /*border: solid white 1px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+}
+
+.square {
+  border: solid white 1px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+}
+
+.squareNoBorder {
+  /*border: solid white 1px;*/
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+}
+
+.lost{
+  color: crimson;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.won{
+  color: slateblue;
+  display: flex;
+  flex-direction: column;
+  font-size: 10rem;
+}
+
+h3{
+  text-shadow: 3px 6px 6px orange;
+}
+
+.squaresContainer {
+  box-shadow: 3px 3px 5px white;
+}
+
+.piece{
+  /*position: absolute;*/
+  background: cover;
+}
+
+.crimson {
+  background : radial-gradient(circle at center, green 0%, white 0%, green 100%);
+  background: linear-gradient(to top right, slateblue 37%, black 62%, white 97%);
+  background-image: url(./images/eightCell.gif);
+  /*background-position: bottom 100px right 20px;*/
+  /*height: 3rem;*/
+  /*width: 3rem;*/
+  background-size: 100% auto;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  /*border: solid blue 5px;*/
+}
+
+.slateblue{
+  background-color: slateblue;
+  /*background: url(./images/rotatingCellBackground.gif);*/
+  /*background-image: url(./images/rotatingCellBackground.gif);*/
+  background: url(./images/Brusselator_space.gif);
+  background-position: center;
+  background-size: 100% auto;
+
+  /*border: solid orange 5px;*/
+}
+
+.peru{
+  background: linear-gradient(to top right, orange 31%, yellow 62%, white 97%);
+  background-image: url(./images/CahnHilliard_Animation.gif);
+  
+  /*background-image: url(./images/EpicEarth-Globespin-tilt-23.4.gif);*/
+    /*background-size: 100% auto;*/
+
+  background-position: center;
+
+  /*border: solid green 5px;*/
+}
+
+
+.magenta{
+  /*background: linear-gradient(to top right, yellow 31%, black 62%, white 97%);*/
+  background-image: url(./images/burningFlame.gif);
+  background-position: center;
+  /*border: solid crimson 5px;*/
+}
+
+.green{
+   /*background : linear-gradient(to top right, pink 31%, blue 62%, white 97%);*/
+     background-image: url(./images/The_Belousov-Zhabotinsky_Reaction.gif);
+  background-position: 25% 75%;
+  background-position: top;
+
+  /*border: solid yellow 4px;*/
+}

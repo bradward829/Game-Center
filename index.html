@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Capstone Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+</head>
+
+<body>
+    <div class="pageContainer container-fluid">
+        <div class="row">
+            <div class="d-flex flex-column align-items-center header">
+                <div class="mainTitle p-5">
+                    <img src="./images/mainTitleWhite2.png" alt="Welcome to Game Center Text">
+                </div>
+                <div class="dateSpot mb-3"></div>
+                <h4>Click an Image Below to Begin!</h4>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+                <div id="carouselExampleCaptions" class="carousel slider" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner mt-5">
+                        <a class="carousel-item active" data-bs-interval="3000" href="./dynamicDice/index.html">
+                            <img src="./images/diceScreenshot.png" class="img-fluid"
+                                alt="image of a dice game with dice on screen">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Dynamic Dice</h3>
+                                <p>Click to play an only for fun Craps style dice game!</p>
+                            </div>
+                        </a>
+                        <a class="carousel-item" data-bs-interval="3000" href="./fightLife/index.html">
+                            <img src="./images/fightLifeScreenshot.png" class="img-fluid"
+                                alt="image of a one on one fighting game">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Fight Life</h3>
+                                <p>Click to play a fun you VS the computer fighting game.</p>
+                            </div>
+                        </a>
+                        <a class="carousel-item" data-bs-interval="3000" href="./warCardGame/index.html">
+                            <img src="./images/warCardGame.png" class="img-fluid"
+                                alt="image of a tetris style block game">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>War</h3>
+                                <p>Click to play my take on the classic War card game.</p>
+                            </div>
+                        </a>
+                        <a class="carousel-item" data-bs-interval="3000" href="./solitaire/index.html">
+                            <img src="./images/solitaireScreenshot.png" class="img-fluid"
+                                alt="image of a solitaire game">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="solitaireBackground rounded p-2">
+                                    <h3>Solitaire</h3>
+                                    <p>Click to play a fun Solitaire Game!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="carousel-item" data-bs-interval="3000" href="./tetris/index.html">
+                            <img src="./images/tetrisScreenshot.png" class="img-fluid"
+                                alt="image of a tetris style block game">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Block Breaker</h3>
+                                <p>Click to play a tetris style game!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <!-- end of carousel -->
+                </div>
+            </div>
+            <!-- end of row -->
+        </div>
+        <!--end of page container-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
