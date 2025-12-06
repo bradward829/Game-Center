@@ -1,0 +1,37 @@
+/* ////////////////////
+    Main Styles
+//////////////////// */
+body {
+  background-image: url(../images/lightningVideo.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  border-radius: 7%;
+}
+
+/* ////////////////////
+        Header
+//////////////////// */
+.header {
+  height: 20vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+}
+
+.mainTitle {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel {
+  box-shadow: 10px 10px 40px white;
+  border-radius: 7%;
+}
+
+.solitaireBackground{
+  background-color: black
+}
+

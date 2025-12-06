@@ -1,0 +1,15 @@
+/****************
+  Main Styles
+*****************/
+body {
+  background-color: black;
+  color: white;
+}
+
+/**********************
+  Title and other rows
+***********************/
+.mainTitle {
+  font-size: 4rem;
+  font-weight: bold;
+}

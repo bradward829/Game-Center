@@ -1,0 +1,226 @@
+/*************************
+/*main background styles*/
+/*************************/
+.sky {
+  background-image: url(../images/burningFlame.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  width: 100vw;
+  z-index: 10;
+}
+
+.burningFlame {
+  background-image: url(../images/burningFlame.gif);
+}
+
+.ground {
+  background-image: url(../images/ground.png);
+  background-size: contain;
+  height: 15vh;
+  width: 100vw;
+}
+
+.pageContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+#computerWinModal {
+  height: 100vh;
+}
+
+#userWinModal {
+  height: 100vh;;
+}
+
+#loginOverlay {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, .75);
+    z-index: 300;
+}
+
+.fightBanner {
+  z-index: 1000;
+}
+
+/*************************
+/*level background images*/
+/*************************/
+.oilRigBackground {
+  background-image: url('../images/oilRigBackground.gif');
+  background-size: cover;
+}
+
+.rotatingCellBackground {
+  background-image: url('../images/rotatingCellBackground.gif');
+}
+
+.windTurbine {
+  background-image: url('../images/windTurbine.gif');
+  background-size: cover;
+  background-position-y: 25%;
+}
+
+.lightning {
+  background-image: url('../images/lightning.jpeg');
+}
+
+.winScreenGround {
+  background-image: radial-gradient(crimson 10%, transparent 20%, slateblue 40%)!important;
+  width: 100vw;
+}
+
+.winScreenSky {
+  background-color: black;
+  height: 85vh;
+  width: 100vw;
+  z-index: 2000;
+}
+
+.winScreenFighterImg {
+  left: 44vw!important;
+  top: 72vh!important
+}
+
+/*************************/
+    /*user styles*/
+/*************************/
+.userImg {
+  background-image: url('../images/userImg.png');
+  width: 125px;
+  height: 240px;
+  z-index: 4;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 73vh;
+  left: 0px;
+  padding: 0rem;
+}
+
+.userMidKick {
+  background-image: url('../images/userMidKick.png');
+}
+
+.userKick {
+  background-image: url('../images/userKick.png');
+}
+
+.userMidPunchLeft {
+  background-image: url('../images/userMidPunchLeft.png');
+}
+
+.userPunchLeft {
+  background-image: url('../images/userPunchLeft.png');
+}
+
+.userMidPunchRight {
+  background-image: url('../images/userMidPunchRight.png');
+}
+
+.userPunchRight {
+  background-image: url('../images/userPunchRight.png');
+}
+
+.userBlock {
+  background-image: url('../images/userBlock.png');
+}
+
+.userWalk {
+  background-image: url('../images/userWalk.png')
+}
+
+.userImpact {
+  background-image: url('../images/userImpact.png');
+  position: absolute;
+  top: 66vh!important
+}
+
+.userDead {
+  background-image: url('../images/userDead.png');
+  width: 14rem;
+  position: absolute;
+  top: 90vh!important;
+  height: 100px;
+}
+
+.userProgress {
+  height: 1.5rem;
+}
+
+#userMade {
+  height: 10rem;
+  width: 4rem;
+  background-color: crimson;
+}
+
+/*************************/
+/*computer styles*/
+/*************************/
+.computerImg {
+  background-image: url('../images/computerImg.png');
+  width: 125px;
+  height: 240px;
+  z-index: 3;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 73vh;
+  left: 25px;
+  padding: 0rem;
+}
+
+.computerProgress {
+  height: 1.5rem;
+}
+
+.computerKick {
+  background-image: url('../images/computerKick.png');
+}
+
+.computerPunchRight {
+  background-image: url('../images/computerPunchRight.png');
+}
+
+.computerPunchLeft {
+  background-image: url('../images/computerPunchLeft.png');
+}
+
+.computerBlock {
+  background-image: url('../images/computerBlock.png');
+}
+
+.computerWalk {
+  background-image: url('../images/computerWalk.png')
+}
+
+.computerImpact {
+  background-image: url('../images/computerImpact.png');
+  position: absolute;
+  top: 66vh
+}
+
+.computerDead {
+  background-image: url('../images/computerDead.png');
+  width: 14rem;
+  position: absolute;
+  top: 85vh;
+  height: 100px;
+}
+
+/*************************/
+/*utility styles*/
+/*************************/
+.hide {
+  display: none
+}
+
+.show {
+  display: block
+}
+
